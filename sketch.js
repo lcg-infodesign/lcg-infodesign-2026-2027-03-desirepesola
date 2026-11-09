@@ -158,7 +158,7 @@ function Legenda () {
       text("WWL 2025", 80, yInizioTesti - 110);
 
     // Sottotitolo
-      textSize(31);
+      textSize(31.8);
       textFont('Helvetica');
       fill('white');
       text("Discriminazione e persecuzione dei cristiani", 80, yInizioTesti - 60);
@@ -178,7 +178,7 @@ function Legenda () {
       // Linea di separazione verticale per la legenda
       stroke(255);
       strokeWeight(1);
-      line (xLegenda - 20, yLegenda - 40, xLegenda - 20, yLegenda + 300); 
+      line (xLegenda - 20, yLegenda - 20, xLegenda - 20, yLegenda + 300); 
 
       // Titolo della legenda
       noStroke();
@@ -235,7 +235,7 @@ function Legenda () {
         rigaLegenda += 1.8;
         textSize(12);
         fill(200);
-        text("PERCENTUALE DI CRISTIANI - rispetto alla popolazione totale", xLegenda, yLegenda + (rigaLegenda * distanzarighe));
+        text("CRISTIANI PRESENTI - Percentuale rispetto la popolazione totale", xLegenda, yLegenda + (rigaLegenda * distanzarighe));
 
         textStyle(NORMAL);
         textSize(11);
@@ -252,7 +252,7 @@ function Legenda () {
 
           fill(220);
           noStroke();
-          text(">= 50%", xLegenda+25 , yLegenda + (rigaLegenda * distanzarighe));
+          text(">= 50% di cristiani", xLegenda+25 , yLegenda + (rigaLegenda * distanzarighe));
 
         // Anello 3
           rigaLegenda += 1.4;
@@ -265,7 +265,7 @@ function Legenda () {
           pop();
 
           fill(220);
-          text("20% - 49%", xLegenda + 25, yLegenda + (rigaLegenda * distanzarighe));
+          text("20% - 49% di cristiani", xLegenda + 25, yLegenda + (rigaLegenda * distanzarighe));
 
         // Anello 2
           rigaLegenda += 1.4;
@@ -278,7 +278,7 @@ function Legenda () {
           pop();
 
           fill(220);
-          text("5% - 19%", xLegenda + 25, yLegenda + (rigaLegenda * distanzarighe));
+          text("5% - 19% di cristiani", xLegenda + 25, yLegenda + (rigaLegenda * distanzarighe));
 
         // Anello 1
           rigaLegenda += 1.4;
@@ -291,7 +291,7 @@ function Legenda () {
           pop();
 
           fill(220);
-          text("< 5%", xLegenda + 25, yLegenda + (rigaLegenda * distanzarighe));
+          text("< 5% di cristiani", xLegenda + 25, yLegenda + (rigaLegenda * distanzarighe));
         }
 
 // GESTIONE DEL MOUSE E INTERAZIONE
